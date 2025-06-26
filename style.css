@@ -1,0 +1,14 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+}
