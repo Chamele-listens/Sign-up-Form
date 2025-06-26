@@ -9,6 +9,22 @@
     flex-direction: column;
 }
 
+.form-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    gap: 10px;
+}
+
 body {
     display: flex;
+    margin: 0px;
 }
