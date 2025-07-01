@@ -1,7 +1,14 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .image-container {
@@ -22,9 +29,11 @@ fieldset {
     padding: 20px;
 }
 
+
 body {
     display: flex;
     margin: 0px;
+    background-color: #f9fafb;
 }
 
 @font-face {
@@ -34,4 +43,6 @@ body {
 
 
 h1,
-input[type="text"] {}
+input[type="text"] {
+    font-size: large;
+}
