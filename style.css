@@ -1,7 +1,7 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 0px 50px 0px;
     justify-content: center;
 }
 
@@ -12,8 +12,9 @@
 }
 
 .image-container {
+    position: relative;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 .form-left,
@@ -45,4 +46,16 @@ body {
 h1,
 input[type="text"] {
     font-size: large;
+}
+
+img {
+    width: auto;
+    height: 600px;
+}
+
+.img-text {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: norse-bold;
 }
