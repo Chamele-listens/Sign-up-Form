@@ -9,22 +9,29 @@
     flex-direction: column;
 }
 
-.form-left {
-    display: flex;
-    flex-direction: column;
-}
-
+.form-left,
 .form-right {
     display: flex;
+    gap: 15px;
     flex-direction: column;
 }
 
 fieldset {
     display: flex;
-    gap: 10px;
+    gap: 100px;
+    padding: 20px;
 }
 
 body {
     display: flex;
     margin: 0px;
 }
+
+@font-face {
+    font-family: norse-bold;
+    src: url("fonts/Norse-Bold.otf") format("opentype");
+}
+
+
+h1,
+input[type="text"] {}
