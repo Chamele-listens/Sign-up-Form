@@ -59,12 +59,15 @@ img {
 
 .img-text {
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     font-family: norse-bold;
 }
 
 .odin-logo-container {
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(72, 73, 72);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(46, 45, 45, 0.5);
+
+    /* opacity: 0.5; */
 }
