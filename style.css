@@ -30,7 +30,8 @@
 
 fieldset {
     display: flex;
-    gap: 100px;
+    flex-direction: column;
+    /* gap: 100px; */
     padding: 20px;
 }
 
