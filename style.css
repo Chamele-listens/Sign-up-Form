@@ -12,9 +12,13 @@
 }
 
 .image-container {
-    position: relative;
+    background-image: url('images/photo-1585202900225-6d3ac20a6962.avif');
+    background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    background-color: red;
+    width: 100vh
 }
 
 .form-left,
@@ -54,8 +58,13 @@ img {
 }
 
 .img-text {
-    position: absolute;
     color: white;
     font-size: 50px;
     font-family: norse-bold;
+}
+
+.odin-logo-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(72, 73, 72);
 }
