@@ -87,3 +87,16 @@ button {
     margin-left: 20px;
     width: 20%;
 }
+
+/* validation for form elements */
+
+input:focus {
+    /* border: 1px solid rgb(36, 36, 255); */
+    border-color: rgb(36, 36, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="email"]:invalid {
+    /* border: 2px solid rgb(255, 0, 0); */
+    border-color: rgb(255, 0, 0);
+}
