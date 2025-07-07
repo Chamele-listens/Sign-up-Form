@@ -18,8 +18,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: red;
     width: 50%
+}
+
+.photo-credit {
+    color: white;
+    align-self: center;
+    justify-self: end;
+}
+
+.credit_link:visited,
+.credit_link:link,
+.credit_link:hover,
+.credit_link:active {
+    color: white;
 }
 
 .form-left,
